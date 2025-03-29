@@ -1,0 +1,93 @@
+/* LoginPage.css */
+body {
+    background-color: #0a192f;
+    color: #e0f7fa;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .login-container {
+    text-align: center;
+    background: #112240;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0, 255, 255, 0.4);
+    width: 320px;
+  }
+  
+  .login-title {
+    font-size: 24px;
+    margin-bottom: 1rem;
+    color: #64ffda;
+  }
+  
+  .error-message {
+    color: #ff5252;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  label {
+    font-size: 14px;
+    color: #80cbc4;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 8px;
+    background-color: #1c3a5e;
+    color: #e0f7fa;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  input:focus {
+    box-shadow: 0px 0px 10px rgba(0, 255, 255, 0.6);
+  }
+  
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+  }
+  
+  .login-button {
+    background-color: #00bcd4;
+    color: #112240;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .signup-button {
+    background-color: #ff4081;
+    color: white;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+  
