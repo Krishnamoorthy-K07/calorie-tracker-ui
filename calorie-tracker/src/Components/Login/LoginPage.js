@@ -16,7 +16,7 @@ function LoginPage() {
       return;
     }
     try {
-      const response = await axios.post("YOUR_LOGIN_ENDPOINT", { email, password });
+      const response = await axios.post("https://calorie-tracker-backend-latest.onrender.com/auth/login", { email, password });
       localStorage.setItem("jwtToken", response.data.token);
       navigate("/tracker");
     } catch (error) {

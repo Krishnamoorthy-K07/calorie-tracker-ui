@@ -11,3 +11,30 @@
     background-color: #f9f9f9;
   }
   
+
+  .result {
+    margin-top: 20px;
+    background-color: #1e1e2f;
+    padding: 20px;
+    border-radius: 12px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  }
+  
+  .result table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .result th, .result td {
+    border: 1px solid #444;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .result th {
+    background-color: #29294d;
+    color: #ffcc00;
+  }
+  

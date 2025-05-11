@@ -18,8 +18,8 @@ function SignUpPage() {
       return;
     }
     try {
-      const response = await axios.post("YOUR_SIGNUP_ENDPOINT", { name, email, password });
-      if (response.status === 201) {
+      const response = await axios.post("https://calorie-tracker-backend-latest.onrender.com/auth/register", { name, email, password });
+      if (response.status === 200) {
         navigate("/");
       } else {
         setError("❌ Sign-up failed. Try again.");
